@@ -14,7 +14,7 @@
       .navbar-text{ margin-right: 100px;}
       h1{ font-weight: 900; margin-top: 50px;}
       .container{ text-align: left; display: grid; grid-template-columns: 1fr 1fr; margin: 30px auto 90px auto;}
-      .card{ display: inline-block; margin: 30px 20px 0; padding: 30px ; width: 30rem;}
+      .card{ display: inline-block; margin: 30px 20px 0; padding: 20px ; width: 30rem;}
       footer{ position: fixed; left:0; bottom:0; width:100%; font-weight: 100; color: lightgray; margin-top: 10vh;}
       footer p{ font-size: 14px; font-weight: 500; padding: 15px 0 5px 0;}
     </style>
@@ -52,7 +52,7 @@
       <div class="card">
         <!-- <img src="{{movie.image.url}}" class="card-img-top" alt="음악 앨범"> -->
         <div class="card-body">
-          <h5 class="card-title">✨{{ blog.title }}✨</h5>
+          <h4 class="card-title">✨{{ blog.title }}✨</h5>
           <!-- <p class="card-text">{{ blog.summary }}...</p> -->
           <p class="card-text"><small class="text-muted">{{ blog.pub_date }}</small></p>
           <a href="{% url 'detail' blog.id %}" class="btn btn-outline-success">보러갈래?</a>
