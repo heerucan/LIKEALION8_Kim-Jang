@@ -10,3 +10,13 @@
 * 1:N 댓글 기능
 * M:N 해시태그 기능
 * Static&Media 기능
+
+
+> 1. 홈페이지
+
+<img width="1440" alt="게시글페이지" src="https://user-images.githubusercontent.com/63235947/87250642-3cf9bd00-c4a1-11ea-987e-c533b04f35a8.png">
+
+> 2. 상세페이지
+
+<img width="1440" alt="상세페이지" src="https://user-images.githubusercontent.com/63235947/87250588-c52b9280-c4a0-11ea-805f-544580c91d6a.png">
+
